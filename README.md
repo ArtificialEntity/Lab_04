@@ -11,7 +11,7 @@
 3. Составить условие при помощи операторов if и else.
 6. Конец.
 ### Блок-схема:
-![diagram]()
+![diagram](https://github.com/ArtificialEntity/Lab_04/blob/main/Lab_04_Diagram.png)
 ## 2. Реализация программы
 ```﻿#include <stdio.h>
 #include <locale.h>
