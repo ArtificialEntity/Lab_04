@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 #include <locale.h>
 
 int main()
@@ -23,14 +24,9 @@ int main()
 
 	scanf("%d", &C);
 
-	if ((A + B + C) % 3 == 0)
-	{
-		puts("Тройка является счастливой!");
-	}
-	else
-	{
-		puts("Тройка не является счастливой!");
-	}
+	int res = ((A + B + C) % 3 == 0);
+
+	printf("Условие выполнено (1 - да, 0 - нет): %d\n", res);
 
 	return 0;
 }
