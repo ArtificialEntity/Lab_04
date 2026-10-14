@@ -13,7 +13,8 @@
 ### Блок-схема:
 ![diagram](https://github.com/ArtificialEntity/Lab_04/blob/main/Lab_04_Diagram.png)
 ## 2. Реализация программы
-```﻿#define _CRT_SECURE_NO_WARNINGS
+```c
+﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 
